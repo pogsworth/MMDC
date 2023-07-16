@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="6502">
+      <UniqueIdentifier>{a0f17e6b-5f89-4768-a375-7c387275baf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2600">
+      <UniqueIdentifier>{1d4c06c3-867a-46e2-8f60-d975c106efc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mmdc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6502\6502.cpp">
+      <Filter>6502</Filter>
+    </ClCompile>
+    <ClCompile Include="2600\2600.cpp">
+      <Filter>2600</Filter>
+    </ClCompile>
+    <ClCompile Include="2600\tia.cpp">
+      <Filter>2600</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
